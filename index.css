@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* 
+
+css
+
+*/
+*{/* خاصيه الall*/ 
+padding: 20;
+margin: 0;
+box-sizing: border-box;
+border: none;
+
+text-align: center;
+}
+.login{
+    width: 1200px;
+    height: 600px;
+   
+    margin: 200px auto;
+}
+.parentdec,.parentLogin{
+    width: 50%; 
+	height: 600px; 
+	position: relative; 
+	float: left; 
+
+}
+.parentdec{
+    background-color: rgb(133, 93, 129);
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+}
+.parentLogin{
+    background-color: rgb(236, 220, 236);
+    border-top-right-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    
+}
+.description{
+    margin-top: 100px;
+    width: 350px;
+    height: 260px;
+   
+    position: absolute;
+
+}
+.description h1{
+   margin-bottom: 20px;
+}
+.description p{
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+form{
+    width: 600px;
+    height: 300px;
+
+text-align: center;
+
+}
+input[type=text],input[type=password]{
+width: 90%;
+padding: 2px 7px;
+margin: 10;
+border: none;
+border-bottom: 1px solid gainsboro;
+
+
+}
+input[type=submit]{
+    background-color: rgb(104, 28, 85);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                rgb(84, 105, 212) 0px 0px 0px 1px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    width: 30%;
+    height: 15%;
+    border: none;
+    margin-inline: 50px;
+    font-weight: 500;
+    
+}
+
+form h1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
